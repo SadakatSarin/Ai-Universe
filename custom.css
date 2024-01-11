@@ -1,0 +1,41 @@
+.size{
+
+height: 100px;
+
+width: 100px;
+
+display: flex;
+
+/* justify-content: center; */
+align-items: center;
+
+
+
+}
+
+.color{
+
+    background: rgba(235, 87, 87, 0.05);;
+}
+
+.border1{
+
+    background: rgba(235, 87, 87, 0.05);
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+
+
+    .mobileDevice{
+
+
+        display: grid;
+
+        grid-template-rows: auto auto auto auto;
+    }
+
+
+
+  }
